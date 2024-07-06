@@ -11,6 +11,8 @@ const opcao: any = readlineSync.question("Escolha uma opcao:")
 
 
 // condição da escolha:
+
+   // opcao 1 - Soma das notas da prova:
     if(opcao == 1){
         console.log(`\n$sgc: Abrindo opção 1.... \n\n ${retornoOp1} `)
 
@@ -21,6 +23,7 @@ const opcao: any = readlineSync.question("Escolha uma opcao:")
         const resultado1: any = `\n$sgc: Sua nota total é de ${somaP1P2P3} pontos.\n`
         console.log(resultado1)
 
+    // opcao 2 - aprovado ou reprovado:
     }else if(opcao == 2){
         console.log(`\n$sgc: Abrindo opção 2....\n\n ${retornoOp2}`)
 
@@ -33,14 +36,14 @@ const opcao: any = readlineSync.question("Escolha uma opcao:")
         }else{
             console.log("\n$sgc: Você foi REPROVADO !!")
         }
-
+    // opcao 3 - sair do app
     }else{
         console.log("\n$sgc: Saindo...") 
        
     }
- // opcao 1 - Soma das notas da prova:       
+        
 
-// opcao 2 - aprovado ou reprovado:
+
     
 
 
