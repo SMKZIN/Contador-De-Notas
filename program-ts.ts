@@ -5,8 +5,8 @@ console.log(TELAINICIO )
 // opções:
 
 let readlineSync = require("readline-sync")
-let retornoOp1: any = `<--- ## School Grade Calculator ## --->\n\n1-Valor da Prova 1 = 0\n\n2-Valor da Prova 2 = 0\n\n3-Valor da Prova 3\n\n<--------------------------------->\n      Insira o valor da nota:\n`
-let retornoOp2: any = `<--- ## School Grade Calculator ## --->\n\n- Vamos fazer a média das notas\n das suas avaliações do semestre,\n insira a soma das duas provas\n para obter a média semestral.\n\n<--------------------------------->\n   Insira o valor da nota total:\n`
+let retornoOp1: any = `<--- ## School Grade Calculator ## --->\n\n1-Valor da Prova 1 = 0\n\n2-Valor da Prova 2 = 0\n\n3-Valor da Prova 3 = 0\n\n<--------------------------------->\n      Insira o valor da nota:\n`
+let retornoOp2: any = `<--- ## School Grade Calculator ## --->\n\n- Vamos fazer a média das notas\n das suas avaliações do semestre,\n insira a soma das três provas\n para obter a média semestral.\n\n<--------------------------------->\n   Insira o valor da nota total:\n`
 const opcao: any = readlineSync.question("Escolha uma opcao:")
 
 
